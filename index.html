@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Bienvenue sur le portfolio de Dominique Bello, développeuse web Full Stack, centée sur le stack MERN, experte en JavaScript, React, Node.js, MongoDB, et bien plus encore. Je me suis spécialisée dans la réalisation de sites web dynamiques et évolutifs. J'ai créé mon portfolio pour mettre mes compétences en valeur à travers différents projets : une plateforme de support, une galerie de photos, une base de données de films et une plateforme de médias sociaux. Basé à Paris, en France, je suis disponible pour des opportunités sur site ou en télétravail. Contactez-moi dès aujourd'hui pour savoir comment je peux vous aider à donner vie à vos projets de développement web.">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./android-chrome-512x512.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="loader.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio | Dominique Bello</title>
+</head>
+
+<body>
+  <div class="loader-wrapper">
+    <div class="loader">
+      <div class="line line1"></div>
+      <div class="line line2"></div>
+      <div class="line line3"></div>
+    </div>
+  </div>
+  <header id="navbar">
+    <nav id="menuToggle">
+      <input title="Navigation menu button" type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <ul id="menu">
+        <li><a href="#home" class="active">Accueil</a></li>
+        <li><a href="#about">A propos</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="download-btn" type="button">CV<svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"
+        fill="currentColor">
+        <g>
+          <polygon points="24,37.1 13,24 35,24" />
+          <rect x="20" y="4" width="8" height="4" />
+          <rect x="20" y="10" width="8" height="4" />
+          <rect x="20" y="16" width="8" height="11" />
+          <rect x="6" y="40" width="36" height="4" />
+        </g>
+      </svg></button>
+  </header>
+
+  <main>
+    <section id="home">
+      <button title="Dark / Light theme" type="button" class="btn-toggle">
+        <p class="day">Clair</p>
+        <img class="sun" src="assets/sun.svg" alt="Sun icon">
+        <p class="night">Sombre</p>
+        <img class="moon" src="assets/moon.svg" alt="Moon icon">
+      </button>
+
+      <div class="card-container">
+        <div class="home-photos">
+          <img src="assets/Profile_photo.png" alt="Profile" class="profile-img">
+          <a title="Contact" href="#contact">
+            <img src="assets/Seahorse.png" alt="Contact" class="contact-img">
+          </a>
+        </div>
+        <div class="card">
+          <p>Bonjour, je m'appelle</p>
+          <a href="#about" class="shimmer">
+            <h1>Dominique Bello</h1>
+          </a>
+          <h2 class="animated-title"></h2>
+
+          <a class="button" title="Projects" type="button" href="#projects">
+            <span class="down-arrow">&darr;</span> Mes Projets&nbsp;<span class="down-arrow">&darr;</span></a>
+        </div>
+      </div>
+      <a title="About" href="#about">
+        <p class="scroll-down"></p>
+      </a>
+    </section>
+
+    <section id="about">
+      <div class="intro">
+        <h2>A propos</h2>
+        <div class="intro-text">
+          <p>Je m'appelle Dominique Bello, alias Catevika.</p>
+          <p>Habitant à Paris, France, j'aime communiquer et travailler avec des gens du monde entier.</p>
+          <p>Créer des sites web sécurisés avec une expérience utilisateur optimisée est ma passion.</p>
+        </div>
+
+        <p class="intro-job-search">
+          Je suis en recherche active de nouvelles opportunités d'emploi. Je souhaite vivement utiliser mes compétences et
+          mon expérience à relever de nouveaux défis en tant que Développeuse Web Full Stack
+        <p>
+      </div>
+
+      <div class="main-text">
+        <h3>En cours</h3>
+        <div class="card">
+          <h4>Reconversion - Développement Web</h4>
+          <div class="card-content">
+            <ul>
+              <li><strong>Codecademy PRO</strong> :
+                <span>Parcours professionnel Développement Web</span>
+              </li>
+              <li><strong>Udemy</strong> : <span>Cours niveaux intermédiaires / avancés </span></li>
+              <li><strong>YouTube</strong> : <span>Vidéos spécialisées Full Stack</span>
+              </li>
+              <li>Actuellement centrée sur le <strong>stack MERN</strong>&nbsp;: MongoDB, Express, React et Node</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <h4>Technologies que j'utilise le plus :</h4>
+          <div class="card-content">
+            <ul>
+              <li>Windows - VScode - Git - Github - Bash</li>
+              <li>HTML - CSS - Sass - Javascript - Typescript</li>
+              <li>React - Redux - Express - Node - Remix</li>
+              <li>Vite - Vitest - Cypress</li>
+              <li>MongoDB - SQlite</li>
+              <li>Google - Firefox - Edge</li>
+              <li>Vercel - Netlify - Render</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>Expérience précédente</h3>
+        <div class="card">
+          <h4>Environ 20 ans de Marketing</h4>
+          <div class="card-content">
+            <ul>
+              <li><strong>Secteur</strong> : <span>Biens de grande consommation (FMCG)</span></li>
+              <li><strong>Dernier poste</strong> : <span>Opérations - Chef de projets</span></li>
+              <li><strong>Collaboration</strong><span> avec des programmeurs de Bulgarie, d'Inde, du Royaume-Uni...</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <h4>Expertise précédente</h4>
+          <div class="card-content">
+            <ul>
+              <li>
+                Q&A tests manuels End-to-end web et mobile,
+              </li>
+              <li>résolution de problèmes dans le cadre d'enquêtes en ligne codées en Javascript ou en .Net, et
+              </li>
+              <li>vérification de la conformité RGPD avant déploiements</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <h4>Clients</h4>
+          <div class="card-content">
+            <ul>
+              <li><strong>Biens de grande consommation</strong> : <span>Danone, Nestlé, Unilever, Procter & Gamble, Ferrero,
+                  Decathlon,
+                  L'Oréal,
+                  Coty...</span></li>
+              <li><strong>Groupes pharmaceutiques</strong> : <span>Novartis, GSK, Johnson & Johnson...</span>
+              <li><strong>Groupes automobiles et plus</strong> : <span>PSA, Michelin...</span>
+
+              <li><strong>Etat Français</strong>, etc.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <h4>Types de projets</h4>
+          <div class="card-content card-projects-types">
+            <ul>
+              <li><strong>B2C</strong></li>
+              <li><strong>B2B</strong></li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>Autres</h3>
+        <div class="card">
+          <h4>Langues :</h4>
+          <div class="card-content card-languages">
+            <ul>
+              <li>Langue maternelle : <strong>français</strong></li>
+              <li>Langues parlées, écrites couramment : <strong>anlais</strong> et <strong>italien</strong></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <h4>Intérêts :</h4>
+          <div class="card-content card-interests">
+            <ul>
+              <li>Tourisme culturel en Italie</li>
+              <li>Festivals d'Art de rue</li>
+              <li>Oeuvres d'art "steampunk" ou "Art Nouveau"</li>
+              <li>Films à l'univers technologique, de science-fiction </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a title="Projects" href="#projects">
+        <p class="scroll-down"></p>
+      </a>
+    </section>
+
+    <section id="projects">
+      <div class="intro">
+        <h2>Projets</h2>
+      </div>
+      <ul class="card-container projects-container">
+        <li class="card">
+          <h4>Support Desk</h4>
+          <img src="assets/SupportDesk.png" alt="Remix-support-desk project">
+          <a href="#remix-support-desk" type="button" id="modal-btn-remix" class="button">Détails</a>
+        </li>
+        <li class="card">
+          <h4>ShopLineArt</h4>
+          <img src="assets/ShopLineArt.png" alt="ShopLineArt project">
+          <a href="#shoplineart" type="button" id="modal-btn-shop" class="button">Détails</a>
+        </li>
+        <li class="card">
+          <h4>MovieMania</h4>
+          <img src="assets/MovieMania.png" alt="MovieMania project">
+          <a href="#movie-mania" type="button" id="modal-btn-movie" class="button">Détails</a>
+        </li>
+        <li class="card">
+          <h4>Social Media</h4>
+          <img src="assets/Social_Media.png" alt="Social Media project">
+          <a href="#Social-media" type="button" id="modal-btn-social" class="button">Détails</a>
+        </li>
+      </ul>
+      <a title="Contact" href="#contact">
+        <p class="scroll-down"></p>
+      </a>
+    </section>
+
+    <section id="remix-support-desk" class="modal">
+      <div class="modal-content">
+        <h2>Support Desk</h2>
+        <img src="assets/SupportDesk.png" alt="Support Desk">
+        <div class="card-container">
+          <div class="modal-links">
+            <a href="https://remix-support-desk-update-react18.vercel.app/" type="button" class="button">Voir le site Support
+              Desk</a>
+            <a href="#Support-Desk" type="button" class="button">Voir la démo</a>
+            <a href="https://github.com/Catevika/Remix_support-desk" type="button" class="button">Voir le code</a>
+          </div>
+          <div class="card">
+            <h4>Aperçu</h4>
+            <div class="card-content">
+              <p><strong>Problème</strong> : Une grande entreprise accueille chaque nouvel employé avec 1&nbsp;ordinateur
+                portable, 1&nbsp;écran de bureau, 1&nbsp;clavier, 1&nbsp;téléphone
+                portable, 1&nbsp;tablette, 1&nbsp;badge pour la porte des employés, 1&nbsp;badge pour la cafétéria, 1&nbsp;ebook
+                d'accueil. Les techniciens ont besoin d'une plate-forme pour gérer le support quotidien pour tous ces équipements.
+              </p>
+              <p><strong>Solution</strong>, un site avec 2 modules :</p>
+              <ul>
+                <li>d'un côté, les employés peuvent envoyer des tickets, recevoir et répondre à des notes, gérer leur profil
+                  personnel</li>
+                <li>de l'autre, les administrateurs IT peuvent gérer les produits, recevoir des tickets, envoyer et recevoir
+                  des notes ainsi que gérer les profils des employés</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Ce que j'ai appris</h4>
+            <div class="card-content">
+              <ul>
+                <li>Remix (compilateur, gestionnaire HTTP côté serveur, serveur, navigateur) + React 18 + React
+                  Router 6 + Typescript
+                </li>
+                <li>Prisma (ORM Node.js et TypeScript de nouvelle génération) + MongoDB</li>
+                <li>Déploiement sur Vercel</li>
+              </ul>
+            </div>
+          </div>
+          <video controls id="Support-Desk" src="assets/Support-Desk_Demo.mp4" type="video/mp4">
+          </video>
+          <button type="button" class="button close">X</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="shoplineart" class="modal">
+      <div class="modal-content">
+        <h2>ShopLineArt</h2>
+        <img src="assets/ShopLineArt.png" alt="ShopLineArt">
+        <div class="card-container">
+          <div class="modal-links">
+            <a href="https://shoplineart-afbr.onrender.com/" type="button" class="button">Voir le site ShopLineArt</a>
+            <a href="#ShopLineArt" type="button" class="button">Voir la démo</a>
+            <a href="https://github.com/Catevika/catevika_shoplineart-server" type="button" class="button">Voir le code
+              Serveur</a>
+            <a href="https://github.com/Catevika/catevika_shoplineart-client" type="button" class="button">Voir le code Client</a>
+          </div>
+          <div class="card">
+            <h4>Aperçu</h4>
+            <div class="card-content">
+              <p><strong>Problème</strong> : Une blogueuse a besoin d'illustrer ses articles. Elle aime le site Pexels.com, site
+                de stockage gratuit de photos d'artistes étonnants. Elle aimerait passer moins de temps à sélectionner et à
+                télécharger ces photos.
+              </p>
+              <p><strong>Solution</strong>, un site avec 3 caractéristiques principales :</p>
+              <ul>
+                <li>recherche de photos par mot-clé,</li>
+                <li>affichage des photos en différentes tailles,</li>
+                <li>téléchargement protégé de photos, dossier au format .zip avec crédits associés</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Ce que j'ai appris</h4>
+            <div class="card-content">
+              <ul>
+                <li>React + React-router-dom V6</li>
+                <li>React Context</li>
+                <li>Auth vs routes publiques + MongoDB / Mongoose</li>
+                <li>Client de l'API Pexels Photo</li>
+                <li>Express</li>
+                <li>Theme clair / sombre CSS</li>
+                <li>EmailJS pour le formulaire de contact</li>
+                <li>JSzip + file-saver pour ajouter des fichiers texte aux photos téléchargées</li>
+                <li>Lien Serveur - Client lors du déploiement sur Render.com</li>
+              </ul>
+            </div>
+          </div>
+          <video controls id="ShopLineArt" src="assets/ShopLineArt_Demo.mp4" type="video/mp4">
+          </video>
+          <button type="button" class="button close">X</button>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="movie-mania" class="modal">
+      <div class="modal-content">
+        <h2>MovieMania</h2>
+        <img src="assets/MovieMania.png" alt="MovieMania">
+        <div class="card-container">
+          <div class="modal-links">
+            <a href="https://movie-mania-typescript.vercel.app" type="button" class="button">Voir le site MovieMania</a>
+            <a href="#MovieMania" type="button" class="button">Voir la démo</a>
+            <a href="https://github.com/Catevika/movie-mania-typescript" type="button" class="button">Voir le code</a>
+          </div>
+          <div class="card">
+            <h4>Aperçu</h4>
+            <div class="card-content">
+              <p><strong>Problème</strong> : Un cinéphile tente de développer sa culture cinématographique. Il aime naviguer sur
+                le site TMDB, mais il est submergé par trop d'informations.
+              </p>
+              <p><strong>Solution</strong>, un site avec 3 charactéristiques principales :</p>
+              <ul>
+                <li>recherche de films par mot-clé,</li>
+                <li>informations détaillées à la demande,</li>
+                <li>vidéos de promotion à la demande</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Ce que j'ai appris</h4>
+            <div class="card-content">
+              <ul>
+                <li>Vite + plugin React - Environnement développement Typescript + Eslint</li>
+                <li>Api TMDB</li>
+                <li>EmailJS pour le formulaire de contact</li>
+                <li>Vitest + jsdom TEST + couverture tests C8 + React-testing-library</li>
+                <li>Tests End-to-End Cypress</li>
+                <li>Actions Github</li>
+                <li>Déploiement sur Vercel avec fichier Vercel.json pour la gestion de la page d'erreur</li>
+              </ul>
+            </div>
+          </div>
+          <video controls id="MovieMania" src="assets/MovieMania_Demo.mp4" type="video/mp4"></video>
+          <button type="button" class="button close">X</button>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="social-media" class="modal">
+      <div class="modal-content">
+        <h2>Social Media</h2>
+        <img src="assets/Social_Media.png" alt="Social Media">
+        <div class="card-container">
+          <div class="modal-links">
+            <a href="#Social-Media" type="button" class="button">Voir la démo</a>
+            <a href="https://github.com/Catevika?tab=repositories&q=Social-Chat&type=&language=&sort=" type="button"
+              class="button">Voir le code</a>
+          </div>
+          <div class="card">
+            <h4>Aperçu</h4>
+            <div class="card-content">
+              <p><strong>Problème</strong> : Un journaliste aime rester en contact avec ses amis lorsqu'il voyage à travers le
+                monde.
+              </p>
+              <p><strong>Solution</strong>, un site social avec 3 charactéristiques principales :</p>
+              <ul>
+                <li>publication de messages personnels avec photos,</li>
+                <li>lecture du flux de messages de ses amis,</li>
+                <li>discussion avec des amis sélectionnés à l'avance</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Ce que j'ai appris</h4>
+            <div class="card-content">
+              <ul>
+                <li>Application sociale avec téléchargement de photos</li>
+                <li>React Context</li>
+                <li>Utilisation de données fictives</li>
+                <li>Socket.io pour la messagerie instantanée</li>
+                <li>Vérification à l'aide de 'npm audit --production' si les vulnérabilités détectées par 'npm audit' sur
+                  'create-react-app' sont des faux-positifs ou non
+                </li>
+              </ul>
+            </div>
+          </div>
+          <video controls id="Social-Media" src="assets/SocialChat_Demo.mp4" type="video/mp4"></video>
+          <button type="button" class="button close">X</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="intro">
+        <h2>Faisons connaissance !</h2>
+      </div>
+
+      <div class="contact-container">
+        <img src="assets/robot.png" alt="Hello">
+
+        <div class="contact-text">
+          <ul>
+            <li>Si vous appréciez mon travail, n'hésitez pas à me faire part de vos commentaires sur Twitter</li>
+            <li>Si vous êtes intéressé par mon profil, en vue d'un éventuel recrutement ou d'une collaboration, envoyez-moi un
+              mail</li>
+          </ul>
+          <p>Dans tous les cas, je me ferai un plaisir de vous répondre dans les 24&nbsp;heures !</p>
+        </div>
+
+        <div class="contacts">
+          <a title="@dominique_bello" href="https://twitter.com/intent/tweet?screen_name=dominique_bello&ref_src=twsrc%5Etfw">
+            <div id="twitter" class="social-btn flex-center">
+              <img src="assets/Twitter.svg" alt="Twitter logo">
+            </div>
+          </a>
+          <a title="Catevika Github" href="https://github.com/Catevika">
+            <div id="github" class="social-btn flex-center">
+              <img src="assets/Github.svg" alt="Github logo">
+            </div>
+          </a>
+          <a title="dominique.bello@outlook.fr" href="mailto:dominique.bello@outlook.fr?subject=First Contact">
+            <div id="email" class="social-btn flex-center">
+              <img src="assets/mail.svg" alt="Email logo">
+            </div>
+          </a>
+        </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 - Fait avec ❤️ par Catevika & DALL-E de&nbsp;OpenAi&nbsp;(robot)</p>
+    <p>
+      <q>
+        Il ne faut pas attendre que la vie ne soit plus difficile avant&nbsp;de&nbsp;décider&nbsp;d'&nbsp;être&nbsp;heureux.
+      </q>
+      <small>Jane Marczewski alias 'Nightbirde'</small>
+    </p>
+
+  </footer>
+  <script src="index.js"></script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>
