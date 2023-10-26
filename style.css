@@ -663,12 +663,12 @@ a.scroll-down {
 @-webkit-keyframes change-content {
   0% {
     opacity: 0;
-    content: "Développeuse Web Full Stack";
+    content: "Développeuse Web Frontend";
   }
 
   20% {
     opacity: 1;
-    content: "Développeuse Web Full Stack";
+    content: "Développeuse Web Frontend";
   }
 
   21% {
@@ -715,12 +715,12 @@ a.scroll-down {
 @keyframes change-content {
   0% {
     opacity: 0;
-    content: "Développeuse Web Full Stack";
+    content: "Développeuse Web Frontend";
   }
 
   20% {
     opacity: 1;
-    content: "Développeuse Web Full Stack";
+    content: "Développeuse Web Frontend";
   }
 
   21% {
@@ -795,7 +795,7 @@ a.scroll-down {
 
 #home .card .animated-title::after {
   position: absolute;
-  content: 'Développeuse Web Full Stack';
+  content: 'Développeuse Web Frontend';
   left: 0;
   -webkit-animation: change-content 10s linear 2;
   animation: change-content 10s linear 2;
